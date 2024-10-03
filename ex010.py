@@ -4,4 +4,4 @@
 valor = float(input('Digite quantos reais voce tem na carteira: '))
 dolar = valor / 3.27
 
-print(f'Voce pode comprar um total de U$: ','%.2f' %dolar,)
+print(f'Voce pode comprar um total de U$: {dolar:.2f}')
